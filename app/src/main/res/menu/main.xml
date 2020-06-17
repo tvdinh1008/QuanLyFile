@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <item
+       android:id="@+id/action_search"
+       app:actionViewClass="android.widget.SearchView"
+       android:orderInCategory="120"
+       app:showAsAction="always|withText"
+       android:title="Search"/>
+
+    <item
+        android:id="@+id/action_save"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_save"
+        android:orderInCategory="140"
+        android:title="Dán" />
+    <item
+        android:id="@+id/action_add_file"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_add_file"
+        android:orderInCategory="140"
+        android:title="Thêm file" />
+
+    <item
+        android:id="@+id/action_add_directory"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_create_new"
+        android:orderInCategory="160"
+        android:title="Thêm thư mục"/>
+
+</menu>
